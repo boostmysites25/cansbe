@@ -25,7 +25,7 @@ const Portfolio = ({ page }) => {
             {data.list.map((item) => (
               <div
                 key={item.title}
-                className="w-full flex flex-col items-center bg-primary hover:bg-secondary hover:scale-x-105 transition-all duration-300 text-white px-5 py-10 gap-3 rounded-md"
+                className="w-full flex flex-col items-center bg-primary hover:bg-secondary hover:scale-x-105 transition-all duration-300 text-white px-5 py-7 gap-3 rounded-md"
               >
                 {data.icon}
                 <h3 className="text-lg font-medium text-center">{item.title}</h3>

@@ -325,7 +325,7 @@ export const testimonials = [
     img: require("../assets/images/testimonials/review-p1.png"),
     designation: "CEO of TechNext Solutions",
     review:
-      "Partnering with Cansbi IT Solutions for our mobile app development was one of the best decisions we made. They not only brought our vision to life but also improved the app’s overall performance and user experience. Their team took the time to understand our goals, and the result has been a product that’s engaging, reliable, and easy to use. We've seen a significant increase in user retention, and it’s all thanks to their expertise.",
+      "Partnering with Cansbi IT Solutions was a great decision. They brought our vision to life while improving the app’s performance and user experience. We've seen a big increase in user retention thanks to their expertise.",
   },
   {
     id: 2,
@@ -333,7 +333,7 @@ export const testimonials = [
     img: require("../assets/images/testimonials/review-p2.png"),
     designation: "CTO of FinServ Global",
     review:
-      "When it came time to migrate to the cloud, we knew we needed a trusted partner. Cansbi IT Solutions made the entire process smooth and efficient. Their cloud migration services were top-notch, and they ensured there was minimal disruption to our daily operations. Not only did they move our data and applications, but they also helped optimize everything for better performance and security.",
+      "Cansbi IT Solutions made our cloud migration smooth and efficient, with minimal disruptions. They optimized our systems for better performance and security, exceeding our expectations.",
   },
   {
     id: 3,
@@ -341,7 +341,7 @@ export const testimonials = [
     img: require("../assets/images/testimonials/review-p3.png"),
     designation: "COO of E-Commerce Hub",
     review:
-      "We had a challenging project ahead—reworking our entire platform’s design. But Cansbi IT Solutions's UX/UI team delivered above and beyond our expectations. They took the time to really understand our users’ needs, and the end result was a beautiful, intuitive product that our customers now love. The process felt collaborative, and the final design has improved user engagement significantly.",
+      "Cansbi’s UX/UI team reworked our platform’s design beautifully. They understood our users’ needs and delivered an intuitive, engaging product that has significantly boosted user engagement.",
   },
   {
     id: 4,
@@ -349,7 +349,7 @@ export const testimonials = [
     img: require("../assets/images/testimonials/review-p4.png"),
     designation: "IT Director at Global Enterprises",
     review:
-      "We approached Cansbi IT Solutions to help us integrate AI into our operations, and the results have been outstanding. Their team guided us through the process with expert advice and delivered custom AI solutions that have streamlined many of our core processes. We've automated time-consuming tasks, which has saved our team countless hours and improved overall productivity.",
+      "Their team helped us integrate AI into our operations, automating tasks and improving productivity. Their custom solutions have been a game-changer for our efficiency.",
   },
   {
     id: 5,
@@ -357,7 +357,7 @@ export const testimonials = [
     img: require("../assets/images/testimonials/review-p5.png"),
     designation: "HR Director at HealthCare Innovators",
     review:
-      "Thanks to Cansbi IT Solutions's data analytics and business intelligence services, we now have a clear view of our business operations. Their team helped us set up powerful analytics tools, and we can now uncover trends and insights that directly inform our strategy. This data-driven approach has given us the confidence to make smarter decisions and drive better results.",
+      "Cansbi’s data analytics services gave us clear insights into our business operations. Their tools have helped us make informed decisions and achieve better results.",
   },
 ];
 

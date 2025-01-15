@@ -1,12 +1,12 @@
 import React from "react";
-import logo1 from "../assets/images/brand-logos/1.png";
+import logo from "../assets/images/brand-logos/1.png";
 import logo2 from "../assets/images/brand-logos/2.png";
 import logo3 from "../assets/images/brand-logos/3.png";
 import logo4 from "../assets/images/brand-logos/4.png";
 import logo5 from "../assets/images/brand-logos/5.png";
 import { useKeenSlider } from "keen-slider/react";
 
-const logos = [logo1, logo2, logo3, logo4, logo5];
+const logos = [logo, logo2, logo3, logo4, logo5];
 
 const animation = { duration: 10000, easing: (t) => t };
 

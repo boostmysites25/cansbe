@@ -1,6 +1,6 @@
 import React from "react";
 import bg from "../assets/images/footer-bg.jpg";
-import logo from "../assets/images/logo/logo1.png";
+import logo from "../assets/images/logo/logo.png";
 import emailIcon from "../assets/images/icons/email.png";
 import phoneIcon from "../assets/images/icons/phone.png";
 import locationIcon from "../assets/images/icons/location.png";
@@ -20,9 +20,7 @@ const Footer = () => {
       style={{ backgroundImage: `url(${bg})` }}
     >
       <div className="wrapper grid grid-cols-1 md:grid-cols-4 lg:grid-cols-[50%_20%_30%] gap-6">
-        <div className="w-fit md:col-span-4 lg:col-span-1 md:place-self-center lg:place-self-auto">
-          <img src={logo} alt="logo" className="w-[10rem] object-contain" />
-        </div>
+        <div className="w-fit md:col-span-4 lg:col-span-1 md:place-self-center lg:place-self-auto"></div>
         <div className="md:col-span-2 lg:col-span-1 flex flex-col gap-4">
           <h6 className="text-lg font-medium">Our Services</h6>
           <div className="flex text-md">

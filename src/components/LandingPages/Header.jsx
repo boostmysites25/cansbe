@@ -1,31 +1,58 @@
 import React from "react";
-import logo from "../../assets/images/logo/logo1.png";
+import logo from "../../assets/images/logo/logo.png";
 import { landingPageNavLinks } from "../../data/constant";
 import { Link as ReactScrollLink } from "react-scroll";
 import Drawer from "react-modern-drawer";
 import { Divide as Hamburger } from "hamburger-react";
 import { IoMdClose } from "react-icons/io";
+import logoVid from "../../assets/vid/logo1.mp4";
+import ReactPlayer from "react-player";
 
 const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false);
+  const [isVideoPlayed, setIsVideoPlayed] = React.useState(false);
   return (
     <div className="fixed top-0 z-50 w-full bg-white/50 backdrop-blur-sm text-primary">
       <div className="flex wrapper items-center gap-8 justify-between">
-        <ReactScrollLink
-          to="banner"
-          className="cursor-pointer"
-          spy={true}
-          smooth={true}
-          duration={500}
-        >
-          <img
-            src={logo}
-            alt="logo"
-            width="auto"
-            height="auto"
-            className="h-[5rem] md:h-[6.5rem] object-contain"
-          />
-        </ReactScrollLink>
+        {isVideoPlayed ? (
+          <ReactScrollLink
+            to="banner"
+            className="cursor-pointer"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            <img
+              src={logo}
+              alt="logo"
+              width="auto"
+              height="auto"
+              className="h-[5rem] md:h-[6.5rem] object-contain"
+            />
+          </ReactScrollLink>
+        ) : (
+          <div className="h-[5rem] md:h-[6.5rem]">
+            <ReactPlayer
+              url={logoVid}
+              height="100%"
+              width="100%"
+              playing
+              muted
+              onEnded={() => setIsVideoPlayed(true)}
+              playsinline
+              pip={false}
+              config={{
+                file: {
+                  attributes: {
+                    controlsList: "nodownload noplaybackrate",
+                    disablePictureInPicture: true,
+                    playsinline: true,
+                  },
+                },
+              }}
+            />
+          </div>
+        )}
         <div className="hidden md:flex items-center gap-10">
           {landingPageNavLinks.map((item) => (
             <ReactScrollLink

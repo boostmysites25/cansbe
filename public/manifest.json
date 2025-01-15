@@ -4,25 +4,25 @@
   "description": "Leading provider of AI, Machine Learning, and Blockchain solutions for businesses",
   "icons": [
     {
-      "src": "logo1.png",
+      "src": "logo.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon",
       "purpose": "any maskable"
     },
     {
-      "src": "logo1.png",
+      "src": "logo.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "any maskable"
     },
     {
-      "src": "logo1.png",
+      "src": "logo.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
     },
     {
-      "src": "logo1.png",
+      "src": "logo.png",
       "sizes": "196x196",
       "type": "image/png",
       "purpose": "any maskable"

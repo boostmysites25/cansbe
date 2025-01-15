@@ -1,5 +1,5 @@
 import { AiFillAppstore } from "react-icons/ai";
-import logoImg from "../assets/images/logo/logo1.png";
+import logoImg from "../assets/images/logo/logo.png";
 import { FaFigma, FaGlobe } from "react-icons/fa";
 import { IoLogoGameControllerB } from "react-icons/io";
 import { SiHiveBlockchain } from "react-icons/si";

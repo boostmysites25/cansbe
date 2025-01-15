@@ -22,13 +22,13 @@ const ArtificialIntelligence = () => {
           Artificial Intelligence Development
         </h2>
         <p data-aos="fade-up" className="description">
-          Artificial Intelligence (AI) is reshaping the way businesses operate, enabling smarter decision-making, enhancing customer experiences, and streamlining operations. At Cansbi IT Solutions, we specialize in AI development, creating customized solutions that leverage advanced AI technologies to address unique business challenges. Our team works closely with clients to design AI-powered systems that drive innovation, efficiency, and growth, positioning businesses at the forefront of digital transformation.
+          Artificial Intelligence (AI) is reshaping the way businesses operate, enabling smarter decision-making, enhancing customer experiences, and streamlining operations. At Cansbe IT Solutions, we specialize in AI development, creating customized solutions that leverage advanced AI technologies to address unique business challenges. Our team works closely with clients to design AI-powered systems that drive innovation, efficiency, and growth, positioning businesses at the forefront of digital transformation.
         </p>
         <h2 data-aos="fade-up" className="text-2xl font-semibold mt-5">
           Unlocking Business Potential with AI
         </h2>
         <p data-aos="fade-up" className="description">
-          The application of AI spans numerous industries, from healthcare to finance, logistics to customer service. At Cansbi IT Solutions, we harness the power of AI to deliver tailored solutions that streamline business operations and enhance decision-making. Our AI development services include building intelligent automation systems, predictive models, and natural language processing (NLP) solutions that help businesses gain valuable insights from data, reduce operational costs, and improve overall efficiency.
+          The application of AI spans numerous industries, from healthcare to finance, logistics to customer service. At Cansbe IT Solutions, we harness the power of AI to deliver tailored solutions that streamline business operations and enhance decision-making. Our AI development services include building intelligent automation systems, predictive models, and natural language processing (NLP) solutions that help businesses gain valuable insights from data, reduce operational costs, and improve overall efficiency.
           <br />
           <br />
           One of the key areas where we specialize is in predictive analytics, where AI algorithms are used to analyze historical data and predict future trends. This helps businesses make informed decisions based on data-driven insights, whether in forecasting sales, customer behavior, or market trends. By integrating AI into their operations, businesses can optimize their strategies and stay ahead of the competition.
@@ -69,7 +69,7 @@ const ArtificialIntelligence = () => {
         </div>
       </div>
       <p>
-        At Cansbi IT Solutions, we are committed to pushing the boundaries of what AI can achieve. Our team is dedicated to staying at the cutting edge of AI advancements, constantly researching and developing innovative AI technologies. We integrate these advancements into our solutions, ensuring that businesses remain ahead of the curve and are prepared for future challenges.
+        At Cansbe IT Solutions, we are committed to pushing the boundaries of what AI can achieve. Our team is dedicated to staying at the cutting edge of AI advancements, constantly researching and developing innovative AI technologies. We integrate these advancements into our solutions, ensuring that businesses remain ahead of the curve and are prepared for future challenges.
       </p>
       <hr />
       <div className="flex w-full justify-between gap-6">

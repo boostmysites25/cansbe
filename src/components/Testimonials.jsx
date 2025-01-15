@@ -40,7 +40,7 @@ const Testimonials = () => {
             Clients Feedback and Reviews
           </h2>
           <p className="text-gray-600 text-sm mb-5 max-w-[30rem] text-center lg:text-start">
-            At Cansbi IT Solutions, we take pride in the success of our clients. Here's what
+            At Cansbe IT Solutions, we take pride in the success of our clients. Here's what
             some of them have to say about their experience working with us:
           </p>
           <img

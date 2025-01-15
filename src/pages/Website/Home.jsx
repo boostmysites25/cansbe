@@ -28,12 +28,12 @@ const Home = () => {
     <>
       <Helmet>
         <title>
-          Cansbi IT Solutions - Empowering Your Business with Cutting Edge
+          Cansbe IT Solutions - Empowering Your Business with Cutting Edge
           Technology
         </title>
         <meta
           name="description"
-          content="Cansbi IT Solutions offers cutting-edge AI, Machine Learning, and Blockchain solutions. Transform your business with our custom software development and technology consulting services."
+          content="Cansbe IT Solutions offers cutting-edge AI, Machine Learning, and Blockchain solutions. Transform your business with our custom software development and technology consulting services."
         />
         <meta
           name="keywords"
@@ -44,11 +44,11 @@ const Home = () => {
         {/* Open Graph Tags */}
         <meta
           property="og:title"
-          content="Cansbi IT Solutions - AI & Technology Solutions Provider"
+          content="Cansbe IT Solutions - AI & Technology Solutions Provider"
         />
         <meta
           property="og:description"
-          content="Transform your business with cutting-edge AI, Machine Learning, and Blockchain solutions from Cansbi IT Solutions."
+          content="Transform your business with cutting-edge AI, Machine Learning, and Blockchain solutions from Cansbe IT Solutions."
         />
         {/* <meta property="og:image" content={aboutImg} />
         <meta property="og:url" content="https://www.aiwebx.in" /> */}
@@ -57,7 +57,7 @@ const Home = () => {
         {/* <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Cansbi IT Solutions - Leading AI & Technology Solutions Provider"
+          content="Cansbe IT Solutions - Leading AI & Technology Solutions Provider"
         />
         <meta
           name="twitter:description"
@@ -92,7 +92,7 @@ const Home = () => {
                 We Deliver Premier IT Solution Services Tailored to Your Needs
               </h1>
               <p data-aos="fade-up" className="text-center max-w-2xl">
-                At Cansbi IT Solutions, we provide a comprehensive suite of
+                At Cansbe IT Solutions, we provide a comprehensive suite of
                 advanced technology services, empowering businesses with
                 scalable, intelligent, and secure solutions tailored to their
                 unique needs.
@@ -167,7 +167,7 @@ const Home = () => {
                     src={whoWeAre}
                     width="500"
                     height="400"
-                    alt="Cansbi IT Solutions company overview"
+                    alt="Cansbe IT Solutions company overview"
                     className="rounded-lg h-[20rem] md:h-full md:max-h-[25rem] w-full object-cover object-right"
                   />
                   <div className="w-full sm:w-fit sm:max-w-[18rem] text-white h-full sm:h-fit absolute md:-bottom-[5rem] bottom-0 left-0 bg-primary/70 sm:bg-primary p-5 rounded-lg">
@@ -186,7 +186,7 @@ const Home = () => {
                     Intelligent Technology
                   </h2>
                   <p>
-                    At Cansbi IT Solutions, we are dedicated to providing
+                    At Cansbe IT Solutions, we are dedicated to providing
                     cutting-edge AI, Machine Learning, and Blockchain solutions
                     that empower businesses to thrive in today's complex and
                     competitive marketplace.

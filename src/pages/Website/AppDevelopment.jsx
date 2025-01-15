@@ -24,7 +24,7 @@ const AppDevelopment = () => {
         <p data-aos="fade-up" className="description">
           In today's rapidly evolving digital world, mobile apps have become
           indispensable tools for businesses to connect with customers and
-          improve operational workflows. At Cansbi IT Solutions, we know that
+          improve operational workflows. At Cansbe IT Solutions, we know that
           app development is not just about coding; it’s about creating
           exceptional, user-friendly experiences that support business growth.
           Our team is proficient in both native and cross-platform development,
@@ -99,7 +99,7 @@ const AppDevelopment = () => {
         </div>
       </div>
       <p>
-        At Cansbi IT Solutions, we’re committed to staying at the forefront of
+        At Cansbe IT Solutions, we’re committed to staying at the forefront of
         technological advancements, offering our clients the latest app
         solutions. We focus on integrating cutting-edge trends that not only
         enhance functionality but also improve the user experience. Our

@@ -325,7 +325,7 @@ export const testimonials = [
     img: require("../assets/images/testimonials/review-p1.png"),
     designation: "CEO of TechNext Solutions",
     review:
-      "Partnering with Cansbi IT Solutions was a great decision. They brought our vision to life while improving the app’s performance and user experience. We've seen a big increase in user retention thanks to their expertise.",
+      "Partnering with Cansbe IT Solutions was a great decision. They brought our vision to life while improving the app’s performance and user experience. We've seen a big increase in user retention thanks to their expertise.",
   },
   {
     id: 2,
@@ -333,7 +333,7 @@ export const testimonials = [
     img: require("../assets/images/testimonials/review-p2.png"),
     designation: "CTO of FinServ Global",
     review:
-      "Cansbi IT Solutions made our cloud migration smooth and efficient, with minimal disruptions. They optimized our systems for better performance and security, exceeding our expectations.",
+      "Cansbe IT Solutions made our cloud migration smooth and efficient, with minimal disruptions. They optimized our systems for better performance and security, exceeding our expectations.",
   },
   {
     id: 3,

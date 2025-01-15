@@ -21,7 +21,7 @@ const WebDevelopment = () => {
           Web Development Services
         </h2>
         <p data-aos="fade-up" className="description">
-          At Cansbi IT Solutions, we understand that web development is not just about building a website; it’s about creating engaging, interactive experiences that empower businesses and captivate their users. By utilizing the latest technologies and best practices, we deliver top-notch web solutions that help our clients thrive in the fast-paced digital landscape.
+          At Cansbe IT Solutions, we understand that web development is not just about building a website; it’s about creating engaging, interactive experiences that empower businesses and captivate their users. By utilizing the latest technologies and best practices, we deliver top-notch web solutions that help our clients thrive in the fast-paced digital landscape.
         </p>
         <h2 data-aos="fade-up" className="text-2xl font-semibold mt-5">
           Our Web Development Methodology
@@ -83,7 +83,7 @@ const WebDevelopment = () => {
         </div>
       </div>
       <p>
-        At Cansbi IT Solutions, we are excited about the future of technology and its potential to break barriers and open up new opportunities for businesses. We are dedicated to staying ahead of the curve, exploring innovative technologies and methodologies that will shape the future of web development. Our experienced team works diligently to create custom web solutions that not only meet the needs of our clients but also position them for sustained success in an increasingly digital world.
+        At Cansbe IT Solutions, we are excited about the future of technology and its potential to break barriers and open up new opportunities for businesses. We are dedicated to staying ahead of the curve, exploring innovative technologies and methodologies that will shape the future of web development. Our experienced team works diligently to create custom web solutions that not only meet the needs of our clients but also position them for sustained success in an increasingly digital world.
       </p>
       <hr />
       <div className="flex flex-col sm:flex-row w-full justify-end gap-6">

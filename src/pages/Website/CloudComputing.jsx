@@ -23,7 +23,7 @@ const CloudComputing = () => {
         </h2>
         <p data-aos="fade-up" className="description">
           As businesses strive for greater agility and cost-efficiency, cloud
-          computing has emerged as a key driver of transformation. At Cansbi IT
+          computing has emerged as a key driver of transformation. At Cansbe IT
           Solutions, we offer comprehensive cloud computing and migration
           services that help businesses move to the cloud seamlessly, optimize
           their operations, and unlock the full potential of cloud technology.
@@ -38,7 +38,7 @@ const CloudComputing = () => {
           Migrating to the cloud offers significant benefits, including
           scalability, cost savings, and enhanced performance. However, the
           process of moving applications, data, and workloads to the cloud can
-          be complex and requires careful planning. Cansbi IT Solutions
+          be complex and requires careful planning. Cansbe IT Solutions
           specializes in cloud migration, ensuring a smooth transition with
           minimal disruption to your business operations. Our team uses proven
           strategies to migrate your existing infrastructure to the cloud,
@@ -95,7 +95,7 @@ const CloudComputing = () => {
         </div>
       </div>
       <p>
-        As cloud technologies continue to evolve, Cansbi IT Solutions stays at
+        As cloud technologies continue to evolve, Cansbe IT Solutions stays at
         the forefront of cloud computing and migration trends. We constantly
         update our processes to integrate the latest innovations, ensuring that
         our clients benefit from state-of-the-art solutions. Our goal is to

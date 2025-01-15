@@ -22,7 +22,7 @@ const ChatbotDevelopment = () => {
           Chatbot Development
         </h2>
         <p data-aos="fade-up" className="description">
-          In today’s fast-paced digital world, customer service expectations are at an all-time high. Chatbots are emerging as essential tools to engage with users, provide instant support, and enhance the overall customer experience. At Cansbi IT Solutions, we specialize in building intelligent chatbot solutions that seamlessly integrate with your business processes. Our chatbots are designed to handle everything from simple queries to complex interactions, providing businesses with a powerful tool to enhance customer satisfaction and operational efficiency.
+          In today’s fast-paced digital world, customer service expectations are at an all-time high. Chatbots are emerging as essential tools to engage with users, provide instant support, and enhance the overall customer experience. At Cansbe IT Solutions, we specialize in building intelligent chatbot solutions that seamlessly integrate with your business processes. Our chatbots are designed to handle everything from simple queries to complex interactions, providing businesses with a powerful tool to enhance customer satisfaction and operational efficiency.
         </p>
         <h2 data-aos="fade-up" className="text-2xl font-semibold mt-5">
           Revolutionizing Customer Interactions
@@ -31,7 +31,7 @@ const ChatbotDevelopment = () => {
           Chatbots enable businesses to provide real-time support and personalized experiences to users, regardless of the time or location. By automating routine interactions, chatbots help businesses streamline their operations, reduce response times, and ensure that customers always receive the attention they need. Whether it’s answering frequently asked questions (FAQs), providing product recommendations, or assisting with account inquiries, our chatbot solutions are designed to improve both the customer experience and internal efficiency.
           <br />
           <br />
-          At Cansbi IT Solutions, we develop AI-powered chatbots that are capable of natural language understanding (NLU), enabling them to have meaningful conversations with users. By leveraging machine learning and deep learning techniques, we ensure that our chatbots continuously improve over time, delivering better responses and higher levels of user satisfaction.
+          At Cansbe IT Solutions, we develop AI-powered chatbots that are capable of natural language understanding (NLU), enabling them to have meaningful conversations with users. By leveraging machine learning and deep learning techniques, we ensure that our chatbots continuously improve over time, delivering better responses and higher levels of user satisfaction.
         </p>
       </div>
       <div className="grid lg:grid-cols-2 gap-7">
@@ -69,7 +69,7 @@ const ChatbotDevelopment = () => {
         </div>
       </div>
       <p>
-        At Cansbi IT Solutions, we not only build chatbots that handle basic queries but also integrate them with backend systems to offer more advanced functionalities. From processing payments to handling booking requests and sending personalized notifications, our chatbots are fully equipped to handle complex tasks. We also ensure that our solutions are scalable, flexible, and easily integrated with existing platforms such as your website, mobile apps, or social media channels.
+        At Cansbe IT Solutions, we not only build chatbots that handle basic queries but also integrate them with backend systems to offer more advanced functionalities. From processing payments to handling booking requests and sending personalized notifications, our chatbots are fully equipped to handle complex tasks. We also ensure that our solutions are scalable, flexible, and easily integrated with existing platforms such as your website, mobile apps, or social media channels.
       </p>
       <hr />
       <div className="flex w-full justify-between gap-6">

@@ -52,7 +52,7 @@ const ContactUs = () => {
               We are ready for your help
             </h2>
             <p data-aos="fade-up" className="max-w-[35rem] lg:max-w-max">
-              Let Cansbi IT Solutions be the catalyst for your digital
+              Let Cansbe IT Solutions be the catalyst for your digital
               transformation. Together, we can build solutions that are as
               dynamic as your vision, helping your business reach new heights.
             </p>

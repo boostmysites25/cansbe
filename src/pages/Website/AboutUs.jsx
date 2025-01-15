@@ -42,7 +42,7 @@ const AboutUs = () => {
               The Global Leader in IT Networking Solutions.
             </h2>
             <p className="mt-6">
-              At Cansbi IT Solutions, we are passionate about helping businesses
+              At Cansbe IT Solutions, we are passionate about helping businesses
               navigate the complexities of the digital age. With a diverse range
               of services in mobile and web app development, cloud solutions,
               artificial intelligence, and more, we provide innovative
@@ -212,7 +212,7 @@ const AboutUs = () => {
       <section className="wrapper text-center">
         <h1 className="heading mb-6">Why Choose Us?</h1>
         <p>
-          At Cansbi IT Needs, we don’t just deliver projects—we build
+          At Cansbe IT Needs, we don’t just deliver projects—we build
           partnerships. Our approach is personal, our commitment is unwavering,
           and our results speak for themselves. Whether you’re looking to
           enhance your digital presence, streamline your operations, or innovate

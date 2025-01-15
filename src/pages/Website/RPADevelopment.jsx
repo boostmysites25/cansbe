@@ -23,7 +23,7 @@ const RPADevelopment = () => {
         <p data-aos="fade-up" className="description">
           Robotic Process Automation (RPA) is revolutionizing the way businesses
           automate repetitive tasks, increase operational efficiency, and reduce
-          human errors. At Cansbi IT Solutions, we specialize in providing
+          human errors. At Cansbe IT Solutions, we specialize in providing
           cutting-edge RPA solutions that help organizations streamline
           workflows, improve productivity, and enhance customer satisfaction.
           Our RPA solutions are designed to automate mundane, rule-based tasks
@@ -44,7 +44,7 @@ const RPADevelopment = () => {
           services to their customers.
           <br />
           <br />
-          At Cansbi IT Solutions, we design and implement RPA solutions that are
+          At Cansbe IT Solutions, we design and implement RPA solutions that are
           tailored to meet the specific needs of your business. Our team of
           experts works closely with clients to identify automation
           opportunities, define the right process flows, and integrate RPA tools
@@ -98,7 +98,7 @@ const RPADevelopment = () => {
         operations without the need for complex infrastructure changes.
       </p>
       <p>
-        Cansbi IT Solutions stays on top of RPA trends, ensuring our clients
+        Cansbe IT Solutions stays on top of RPA trends, ensuring our clients
         benefit from the latest advancements in automation technologies. Whether
         you’re a small business or a large enterprise, we can help you leverage
         RPA to unlock new efficiencies and deliver greater value to your

@@ -22,7 +22,7 @@ const UIUXDesign = () => {
           UI/UX Design Services
         </h2>
         <p data-aos="fade-up" className="description">
-          At Cansbi IT Solutions, we believe that a great user interface (UI)
+          At Cansbe IT Solutions, we believe that a great user interface (UI)
           combined with an exceptional user experience (UX) is crucial to
           building successful digital products. Our design process focuses on
           creating visually stunning, intuitive, and functional interfaces that
@@ -106,7 +106,7 @@ const UIUXDesign = () => {
         </div>
       </div>
       <p>
-        At Cansbi IT Solutions, we understand the importance of a great user
+        At Cansbe IT Solutions, we understand the importance of a great user
         experience. Our team of designers and researchers is passionate about
         creating designs that not only meet user expectations but exceed them.
         We continuously push the boundaries of design to bring you innovative

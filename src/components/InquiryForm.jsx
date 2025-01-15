@@ -36,7 +36,7 @@ const InquiryForm = () => {
     // Construct the request payload
     var payload = {
       to: companyDetails.email,
-      subject: "You have a new message from Cansbi IT Solutions",
+      subject: "You have a new message from Cansbe IT Solutions",
       body: emailBody,
     };
 
@@ -79,7 +79,7 @@ const InquiryForm = () => {
               Let’s Collaborate to Innovate
             </h2>
             <p data-aos="fade-up" className="max-w-[35rem] lg:max-w-max">
-              At Cansbi IT Solutions, we are committed to delivering technology
+              At Cansbe IT Solutions, we are committed to delivering technology
               solutions that drive business transformation. Get in touch with us
               today to explore how our expertise can help you achieve your
               business objectives.

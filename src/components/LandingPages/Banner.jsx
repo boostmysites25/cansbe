@@ -44,8 +44,8 @@ const Banner = ({ page }) => {
           </h1>
           <p data-aos="fade-right" className="text-sm text-gray-500">
             {isWeb
-              ? "Elevate your online presence with our advanced web development services. At Cansbi IT Solutions, we merge creativity, innovation, and the latest technologies to craft custom web solutions that engage users, enhance interaction, and accelerate business growth. From dynamic websites and interactive platforms to scalable e-commerce solutions, we create personalized digital experiences built to thrive in the future."
-              : "Leverage the power of cutting-edge app development to connect with your audience anytime, anywhere. At Cansbi IT Solutions, we specialize in creating custom mobile and web applications that offer smooth user experiences, enhance engagement, and foster growth. Whether it's intuitive design or robust features, our personalized app solutions are crafted to help your business succeed in the digital world, giving you a competitive edge."}
+              ? "Elevate your online presence with our advanced web development services. At Cansbe IT Solutions, we merge creativity, innovation, and the latest technologies to craft custom web solutions that engage users, enhance interaction, and accelerate business growth. From dynamic websites and interactive platforms to scalable e-commerce solutions, we create personalized digital experiences built to thrive in the future."
+              : "Leverage the power of cutting-edge app development to connect with your audience anytime, anywhere. At Cansbe IT Solutions, we specialize in creating custom mobile and web applications that offer smooth user experiences, enhance engagement, and foster growth. Whether it's intuitive design or robust features, our personalized app solutions are crafted to help your business succeed in the digital world, giving you a competitive edge."}
           </p>
           <Link data-aos="fade-right" className="primary-btn mt-10">
             Get Started

@@ -23,7 +23,7 @@ const DataAnalyticsAndBI = () => {
         </h2>
         <p data-aos="fade-up" className="description">
           In today’s data-driven world, organizations must harness the power of
-          their data to make informed decisions that drive growth. At Cansbi IT
+          their data to make informed decisions that drive growth. At Cansbe IT
           Solutions, we specialize in data analytics and business intelligence
           (BI) services that enable businesses to transform raw data into
           actionable insights. Our solutions help businesses understand trends,
@@ -37,7 +37,7 @@ const DataAnalyticsAndBI = () => {
           Data analytics and BI have become essential tools for businesses to
           gain competitive advantages. With the right data insights,
           organizations can make data-driven decisions that enhance efficiency,
-          reduce costs, and discover new growth opportunities. At Cansbi IT
+          reduce costs, and discover new growth opportunities. At Cansbe IT
           Solutions, we focus on providing comprehensive analytics services,
           including data mining, predictive analytics, and advanced reporting to
           uncover hidden patterns and trends that can help businesses thrive.
@@ -89,7 +89,7 @@ const DataAnalyticsAndBI = () => {
         </div>
       </div>
       <p>
-        At Cansbi IT Solutions, we understand that data is a valuable asset
+        At Cansbe IT Solutions, we understand that data is a valuable asset
         that, when used correctly, can drive substantial business growth. Our
         team of experts uses the latest BI tools and techniques to transform
         your data into strategic insights. Whether you need help with data

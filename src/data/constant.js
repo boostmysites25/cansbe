@@ -130,7 +130,8 @@ export const websitePagesLinks = [
   },
   {
     id: 4,
-    link: "/blogs",
+    link: "#",
+    // link: "/blogs",
     label: "Blogs",
   },
   {

@@ -1,14 +1,44 @@
 import React from "react";
 import line from "../../assets/images/line.png";
 import {
+  aiCallingAgencyServices,
   appDevelopmentServices,
   webDevelopmentServices,
 } from "../../data/constant";
 
 const Services = ({ page }) => {
-  const isWeb = page === "web";
+  let services, serviceName, heading, description;
 
-  const services = isWeb ? webDevelopmentServices : appDevelopmentServices;
+  switch (page) {
+    case "web":
+      serviceName = "Web Development";
+      services = webDevelopmentServices;
+      heading =
+        "Transform Your Online Presence with Premier Web Development Solutions";
+      description =
+        "Our web development services focus on creating fast, responsive, and visually appealing websites that drive user engagement and boost business success.";
+      break;
+    case "app":
+      serviceName = "App Development";
+      services = appDevelopmentServices;
+      heading = "Empowering Businesses with Advanced App Development Services";
+      description =
+        "We offer tailored app development services designed to create high-performance, secure, and user-friendly mobile applications that provide exceptional user experiences.";
+      break;
+    case "ai-calling":
+      serviceName = "AI Calling Agency";
+      services = aiCallingAgencyServices;
+      heading = "Revolutionize Your Communication with AI Calling Agency Services";
+      description =
+        "Our AI calling agency services leverage advanced artificial intelligence to enhance customer interactions, streamline operations, and drive business growth.";
+      break;
+    default:
+      serviceName = "";
+      services = [];
+      heading = "";
+      description = "";
+  }
+
   return (
     <div
       id="services"
@@ -19,21 +49,17 @@ const Services = ({ page }) => {
         <div data-aos="fade-up" className="flex items-center gap-3">
           <img src={line} alt="line" className="w-[3rem]" />
           <h6 className="font-medium text-secondary">
-            {`${isWeb ? "Web" : "App"} Development Services`}
+            {`${serviceName} Services`}
           </h6>
         </div>
         <h1
           data-aos="fade-up"
           className="text-[2rem] md:text-4xl leading-tight font-semibold text-center max-w-2xl"
         >
-          {isWeb
-            ? "Transform Your Online Presence with Premier Web Development Solutions"
-            : "Empowering Businesses with Advanced App Development Services"}
+          {heading}
         </h1>
         <p data-aos="fade-up" className="text-center max-w-2xl">
-          {isWeb
-            ? "Our web development services focus on creating fast, responsive, and visually appealing websites that drive user engagement and boost business success."
-            : "We offer tailored app development services designed to create high-performance, secure, and user-friendly mobile applications that provide exceptional user experiences."}
+          {description}
         </p>
         <div
           data-aos="fade-up"

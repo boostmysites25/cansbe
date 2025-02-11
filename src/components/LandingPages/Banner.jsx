@@ -5,7 +5,6 @@ import robot from "../../assets/images/landingpages/ai-robot.png";
 import gsap from "gsap";
 
 const Banner = ({ page }) => {
-  const isWeb = page === "web";
   useEffect(() => {
     const tl = gsap.timeline();
     tl.to("#robot", {
@@ -20,6 +19,26 @@ const Banner = ({ page }) => {
       tl.kill();
     };
   }, []);
+
+  let service, heading, description;
+  if (page === "web") {
+    service = "Web Development";
+    heading = "Shaping the Future with Cutting-Edge Web Development Solutions";
+    description =
+      "Elevate your online presence with our advanced web development services. At Cansbe IT Solutions, we merge creativity, innovation, and the latest technologies to craft custom web solutions that engage users, enhance interaction, and accelerate business growth. From dynamic websites and interactive platforms to scalable e-commerce solutions, we create personalized digital experiences built to thrive in the future.";
+  } else if (page === "app") {
+    service = "App Development";
+    heading =
+      "Unlocking the Power of Mobile Apps with Cutting-Edge App Development Services";
+    description =
+      "Leverage the power of cutting-edge app development to connect with your audience anytime, anywhere. At Cansbe IT Solutions, we specialize in creating custom mobile and web applications that offer smooth user experiences, enhance engagement, and foster growth. Whether it's intuitive design or robust features, our personalized app solutions are crafted to help your business succeed in the digital world, giving you a competitive edge.";
+  } else if (page === "ai-calling") {
+    service = "AI Calling Agency";
+    heading =
+      "Elevating Customer Connections with Intelligent Calling Solutions";
+    description =
+      "Leverage the power of AI-driven calling solutions to enhance customer interactions and streamline communication. At Cansbe IT Solutions, we specialize in providing AI-powered calling services that automate customer support, improve engagement, and drive efficiency. Whether it’s handling customer inquiries or managing high volumes of calls, our AI solutions are designed to deliver seamless experiences, reduce operational costs, and provide businesses with valuable insights. Embrace the future of communication with our advanced AI calling technology and give your business a competitive advantage in the digital era.";
+  }
   return (
     <div
       id="banner"
@@ -32,20 +51,16 @@ const Banner = ({ page }) => {
             data-aos="fade-right"
             className="bg-[#ECECF2] p-1 text-gray-900 text-sm"
           >
-            {isWeb ? "Web Development" : "App Development"}
+            {service}
           </p>
           <h1
             data-aos="fade-right"
             className="text-[2.5rem] md:text-5xl font-bold leading-tight"
           >
-            {isWeb
-              ? "Shaping the Future with Cutting-Edge Web Development Solutions"
-              : "Unlocking the Power of Mobile Apps with Cutting-Edge App Development Services"}
+            {heading}
           </h1>
           <p data-aos="fade-right" className="text-sm text-gray-500">
-            {isWeb
-              ? "Elevate your online presence with our advanced web development services. At Cansbe IT Solutions, we merge creativity, innovation, and the latest technologies to craft custom web solutions that engage users, enhance interaction, and accelerate business growth. From dynamic websites and interactive platforms to scalable e-commerce solutions, we create personalized digital experiences built to thrive in the future."
-              : "Leverage the power of cutting-edge app development to connect with your audience anytime, anywhere. At Cansbe IT Solutions, we specialize in creating custom mobile and web applications that offer smooth user experiences, enhance engagement, and foster growth. Whether it's intuitive design or robust features, our personalized app solutions are crafted to help your business succeed in the digital world, giving you a competitive edge."}
+            {description}
           </p>
           <Link data-aos="fade-right" className="primary-btn mt-10">
             Get Started

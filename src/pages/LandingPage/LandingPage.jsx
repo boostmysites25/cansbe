@@ -63,7 +63,7 @@ const LandingPage = ({ page }) => {
           ))}
         </div>
       </div>
-      <WorkFlow page={page} />
+      <WorkFlow />
       <Experience />
       <Testimonials />
       <LeadForm />

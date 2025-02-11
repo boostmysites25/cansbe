@@ -24,6 +24,14 @@ export const services = [
   },
   {
     id: 3,
+    title: "AI Calling Agency",
+    icon: require("../assets/images/icons/ai-calling.png"),
+    description:
+      "Providing AI-powered calling solutions for businesses to automate customer interactions and enhance communication.",
+    link: "/services/ai-calling-agency",
+  },
+  {
+    id: 4,
     title: "UI/UX",
     icon: require("../assets/images/icons/uiux.png"),
     description:
@@ -31,7 +39,7 @@ export const services = [
     link: "/services/ui-ux",
   },
   {
-    id: 4,
+    id: 5,
     title: "Cloud Computing and Migrating Services",
     icon: require("../assets/images/icons/cloudcomputing.png"),
     description:
@@ -39,7 +47,7 @@ export const services = [
     link: "/services/cloud-computing-services",
   },
   {
-    id: 5,
+    id: 6,
     title: "Artificial Intelligence Development",
     icon: require("../assets/images/icons/ai.png"),
     description:
@@ -47,7 +55,7 @@ export const services = [
     link: "/services/ai-ml-development",
   },
   {
-    id: 6,
+    id: 7,
     title: "Data Analytics and Business Intelligence",
     icon: require("../assets/images/icons/data-analytics.png"),
     description:
@@ -55,7 +63,7 @@ export const services = [
     link: "/services/data-analytics-business-intelligence",
   },
   {
-    id: 7,
+    id: 8,
     title: "Chatbot Development",
     icon: require("../assets/images/icons/chatbot.png"),
     description:
@@ -63,7 +71,7 @@ export const services = [
     link: "/services/chatbot-development",
   },
   {
-    id: 8,
+    id: 9,
     title: "Robotic Process Automation",
     icon: require("../assets/images/icons/rpa.png"),
     description:
@@ -90,11 +98,6 @@ export const landingPageNavLinks = [
     id: 2,
     label: "Services",
     link: "services",
-  },
-  {
-    id: 3,
-    label: "Portfolio",
-    link: "portfolio",
   },
   {
     id: 4,
@@ -201,80 +204,74 @@ export const appDevelopmentServices = [
   },
 ];
 
-// development workflow
-export const webDevelopmentWorkflow = [
+// ai calling agency services
+export const aiCallingAgencyServices = [
   {
-    id: "01",
-    title: "Requirements Analysis",
-    icon: require("../assets/images/icons/requirement-analysis.png"),
+    id: 1,
+    title: "Round-the-Clock Customer Support",
+    icon: require("../assets/images/icons/Customer Support.png"),
     description:
-      "We delve deep to understand your goals, target audience, and project needs. Through collaborative discussions, we solidify the website's functionalities and user journeys.",
+      "Never miss an opportunity to assist your customers. Our AI-powered customer service agents are available 24/7, ensuring that your customers always get the help they need—whether it’s during business hours or after hours.",
   },
   {
-    id: "02",
-    title: "Design & Planning",
-    icon: require("../assets/images/icons/planning.png"),
+    id: 2,
+    title: "Lead Generation & Sales Support",
+    icon: require("../assets/images/icons/Sales Support.png"),
     description:
-      "Our team crafts a user-centric blueprint. We meticulously plan the website's architecture, information flow, and visual identity, ensuring an intuitive and engaging experience.",
+      "Our AI can assist in generating leads by engaging with potential customers, answering their questions, and qualifying leads based on your criteria. By handling these preliminary steps, your sales team can focus on closing deals and nurturing high-value prospects.",
   },
   {
-    id: "03",
-    title: "Development",
-    icon: require("../assets/images/icons/software-development.png"),
+    id: 3,
+    title: "Efficient Appointment Management",
+    icon: require("../assets/images/icons/Appointment Management.png"),
     description:
-      "Our skilled developers bring your vision to life. We leverage cutting-edge technologies to build a secure and scalable website or web application that seamlessly integrates with your existing systems.",
+      "Booking appointments has never been easier. Our AI scheduling assistant handles bookings, reminders, and cancellations—ensuring your customers are always informed and reducing the risk of missed appointments.",
   },
   {
-    id: "04",
-    title: "Testing",
-    icon: require("../assets/images/icons/testing.png"),
+    id: 4,
+    title: "Seamless Surveys & Feedback",
+    icon: require("../assets/images/icons/Feedback.png"),
     description:
-      "We subject your website to rigorous testing to ensure flawless performance across all devices. Once satisfied, we launch your masterpiece with a smooth transition and ongoing support.",
-  },
-  {
-    id: "05",
-    title: "Support",
-    icon: require("../assets/images/icons/support.png"),
-    description:
-      "Our commitment extends beyond launch. We provide ongoing maintenance, security updates, and expert assistance to keep your website thriving in the ever-evolving digital landscape.",
+      "Collect valuable insights from your customers without burdening your team. Our AI system makes it simple to gather feedback through automated surveys and calls. Whether it’s to assess customer satisfaction or gather opinions on new products, our system helps you make informed decisions quickly.",
   },
 ];
 
-export const appDevelopmentWorkflow = [
+// development workflow
+export const serviceWorkflow = [
   {
     id: "01",
     title: "Requirements Analysis",
     icon: require("../assets/images/icons/requirement-analysis.png"),
     description:
-      "We delve deep to understand your app's purpose, target audience, and desired functionalities. Through workshops and discussions, we'll solidify your app's foundation.",
+      "We delve deep to understand your goals, target audience, and project needs. Through collaborative discussions, we solidify the service's functionalities and user journeys.",
   },
   {
     id: "02",
     title: "Design & Planning",
     icon: require("../assets/images/icons/planning.png"),
     description:
-      "We craft a user-centric experience. Our designers create intuitive interfaces, while our planners map out the development roadmap, ensuring a smooth and efficient build.",
+      "We craft a user-centric blueprint. Our team plans the service architecture, information flow, and visual identity, ensuring an intuitive and engaging experience.",
   },
   {
     id: "03",
     title: "Development",
     icon: require("../assets/images/icons/software-development.png"),
     description:
-      "Our skilled engineers bring your app to life. Using cutting-edge tools and following best practices, we meticulously code every feature, ensuring a robust and functional app.",
+      "Our skilled developers bring your vision to life. We leverage cutting-edge technologies to build a secure and scalable solution that seamlessly integrates with your existing systems.",
   },
   {
     id: "04",
     title: "Testing",
     icon: require("../assets/images/icons/testing.png"),
     description:
-      "We rigorously test every aspect of your app across different devices and scenarios. Our goal To identify and fix any glitches before launch, guaranteeing a seamless user experience.",
+      "We subject your service to rigorous testing to ensure flawless performance. Once satisfied, we launch your solution with a smooth transition and ongoing support.",
   },
   {
     id: "05",
     title: "Support",
     icon: require("../assets/images/icons/support.png"),
     description:
-      "Your app's success is our priority. We offer ongoing support to address any issues and provide updates to keep your app functioning at its best.",
+      "Our commitment extends beyond launch. We provide ongoing maintenance, security updates, and expert assistance to keep your service thriving in the ever-evolving landscape.",
   },
 ];
 
@@ -341,7 +338,7 @@ export const testimonials = [
     img: require("../assets/images/testimonials/review-p3.png"),
     designation: "COO of E-Commerce Hub",
     review:
-      "Cansbi’s UX/UI team reworked our platform’s design beautifully. They understood our users’ needs and delivered an intuitive, engaging product that has significantly boosted user engagement.",
+      "Cansbe’s UX/UI team reworked our platform’s design beautifully. They understood our users’ needs and delivered an intuitive, engaging product that has significantly boosted user engagement.",
   },
   {
     id: 4,
@@ -357,7 +354,7 @@ export const testimonials = [
     img: require("../assets/images/testimonials/review-p5.png"),
     designation: "HR Director at HealthCare Innovators",
     review:
-      "Cansbi’s data analytics services gave us clear insights into our business operations. Their tools have helped us make informed decisions and achieve better results.",
+      "Cansbe’s data analytics services gave us clear insights into our business operations. Their tools have helped us make informed decisions and achieve better results.",
   },
 ];
 

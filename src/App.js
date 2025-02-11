@@ -31,6 +31,9 @@ const ChatbotDevelopment = React.lazy(() =>
 const AppDevelopment = React.lazy(() =>
   import("./pages/Website/AppDevelopment")
 );
+const AICallingAgency = React.lazy(() =>
+  import("./pages/Website/AICallingAgency")
+);
 const WebDevelopment = React.lazy(() =>
   import("./pages/Website/WebDevelopment")
 );
@@ -79,6 +82,7 @@ function App() {
             <Route path="/services" element={<ServicePageLayout />}>
               <Route path="web-development" element={<WebDevelopment />} />
               <Route path="app-development" element={<AppDevelopment />} />
+              <Route path="ai-calling-agency" element={<AICallingAgency />} />
               <Route path="ui-ux" element={<UIUXDesign />} />
               <Route path="rpa-development" element={<RPADevelopment />} />
               <Route
@@ -107,6 +111,10 @@ function App() {
             <Route
               path="/app-development"
               element={<LandingPage page="app" />}
+            />
+            <Route
+              path="/ai-calling-agency"
+              element={<LandingPage page="ai-calling" />}
             />
           </Routes>
         </NormalizeSlash>

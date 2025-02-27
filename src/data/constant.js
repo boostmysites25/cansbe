@@ -84,8 +84,8 @@ export const services = [
 export const companyDetails = {
   logo: logoImg,
   phone: "+919731182101",
-  location: "",
-  email: "abc@xyz.com",
+  location: "101, Oxford Towers, 139, HAL Old Airport Rd, Kodihalli, Bengaluru, Karnataka 560008",
+  email: "info@cansbe.com",
 };
 
 export const landingPageNavLinks = [

@@ -13,6 +13,7 @@ import { LoadingSpinner } from "./components/LoadingSpinner";
 
 const Home = React.lazy(() => import("./pages/Website/Home"));
 const AboutUs = React.lazy(() => import("./pages/Website/AboutUs"));
+const ThankYou = React.lazy(() => import("./pages/ThankYou"));
 const OurServices = React.lazy(() => import("./pages/Website/OurServices"));
 const Blogs = React.lazy(() => import("./pages/Website/Blogs"));
 const BlogDetails = React.lazy(() => import("./pages/Website/BlogDetails"));
@@ -20,7 +21,9 @@ const ServicePageLayout = React.lazy(() =>
   import("./components/Website/ServicePageLayout")
 );
 
-const RPADevelopment = React.lazy(() => import("./pages/Website/RPADevelopment"));
+const RPADevelopment = React.lazy(() =>
+  import("./pages/Website/RPADevelopment")
+);
 const UIUXDesign = React.lazy(() => import("./pages/Website/UIUX"));
 const DataAnalyticsAndBI = React.lazy(() =>
   import("./pages/Website/DataAnalyticsAndBI")
@@ -77,6 +80,7 @@ function App() {
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/blogs" element={<Blogs />} />
             <Route path="/blogs/:title" element={<BlogDetails />} />
+            <Route path="/thank-you" element={<ThankYou />} />
 
             {/* Services Detail Routes with Layout */}
             <Route path="/services" element={<ServicePageLayout />}>

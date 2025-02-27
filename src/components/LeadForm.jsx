@@ -4,9 +4,12 @@ import { useForm } from "react-hook-form";
 import { companyDetails } from "../data/constant";
 import toast from "react-hot-toast";
 import { SpinnerContext } from "./SpinnerContext";
+import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
 const LeadForm = () => {
   const { setSpinner } = useContext(SpinnerContext);
+  const navigate = useNavigate();
   const {
     register,
     handleSubmit,
@@ -36,24 +39,24 @@ const LeadForm = () => {
       to: companyDetails.email,
       subject: values.subject,
       body: emailBody,
+      name: "Cansbe IT Solutions",
     };
 
-    await fetch("https://smtp-api-tawny.vercel.app/send-email", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(payload),
-    })
-      .then((response) => response.json())
-      .then(() => {
+    try {
+      const res = await axios.post(
+        "https://send-mail-redirect-boostmysites.vercel.app/send-email",
+        payload
+      );
+      if (res.data.success) {
         toast.success("Email sent successfully");
         reset();
-      })
-      .catch((error) => {
-        toast.error(error.message);
-      })
-      .finally(() => setSpinner(false));
+        navigate("/thank-you");
+      }
+    } catch (err) {
+      toast.error("Something went wrong");
+    } finally {
+      setSpinner(false);
+    }
   };
   return (
     <div id="contact" className="w-full py-[5rem] relative">

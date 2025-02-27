@@ -4,9 +4,12 @@ import { useForm } from "react-hook-form";
 import { SpinnerContext } from "../components/SpinnerContext";
 import { companyDetails } from "../data/constant";
 import line from "../assets/images/line.png";
+import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
 const InquiryForm = () => {
   const { setSpinner } = useContext(SpinnerContext);
+  const navigate = useNavigate();
   const {
     register,
     handleSubmit,
@@ -38,28 +41,24 @@ const InquiryForm = () => {
       to: companyDetails.email,
       subject: "You have a new message from Cansbe IT Solutions",
       body: emailBody,
+      name: "Cansbe IT Solutions",
     };
 
-    await fetch("https://smtp-api-tawny.vercel.app/send-email", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(payload),
-    })
-      .then((response) => response.json())
-      .then((res) => {
-        if (res.error) {
-          toast.error(res.error);
-        } else {
-          toast.success("Email sent successfully");
-          reset();
-        }
-      })
-      .catch((error) => {
-        toast.error(error.message);
-      })
-      .finally(() => setSpinner(false));
+    try {
+      const res = await axios.post(
+        "https://send-mail-redirect-boostmysites.vercel.app/send-email",
+        payload
+      );
+      if (res.data.success) {
+        toast.success("Email sent successfully");
+        reset();
+        navigate("/thank-you");
+      }
+    } catch (err) {
+      toast.error("Something went wrong");
+    } finally {
+      setSpinner(false);
+    }
   };
   return (
     <div className="wrapper">

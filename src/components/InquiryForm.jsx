@@ -64,7 +64,7 @@ const InquiryForm = () => {
     <div className="wrapper">
       <div
         data-aos="fade-up"
-        className="max-w-5xl mx-auto bg-white p-5 sm:p-8 shadow-large shadow-black/10 rounded-lg relative z-10"
+        className="max-w-6xl mx-auto bg-white p-5 sm:p-8 shadow-large shadow-black/10 rounded-lg relative z-10"
       >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-7 lg:gap-5">
           <div className="flex flex-col gap-3">
@@ -87,7 +87,7 @@ const InquiryForm = () => {
           <form
             onSubmit={handleSubmit(handleFormSubmit)}
             data-aos="fade-up"
-            className="flex flex-col gap-1"
+            className="flex flex-col gap-3"
           >
             <div className="grid sm:grid-cols-2 gap-3">
               <div className="flex flex-col">
@@ -142,7 +142,7 @@ const InquiryForm = () => {
                   {...register("phone", {
                     required: "Phone number is required",
                     pattern: {
-                      value: /^[6-9]\d{9}$/i,
+                      value: /^\+?[\d\s\-()]{6,14}\d$/,
                       message: "Entered phone number is invalid",
                     },
                   })}
